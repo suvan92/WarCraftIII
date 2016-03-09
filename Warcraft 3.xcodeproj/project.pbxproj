@@ -264,7 +264,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WC;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Lighthouse Labs";
 				TargetAttributes = {
 					8311C6FB191CCB2300AF33F3 = {
@@ -389,6 +389,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -453,6 +454,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/usr/lib",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +472,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/usr/lib",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -508,6 +511,7 @@
 					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -543,6 +547,7 @@
 					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

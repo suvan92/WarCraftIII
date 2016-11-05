@@ -51,7 +51,7 @@
 
 -(void)testCantDamageOtherUnitsNoAttackPower
 {
-    int result = _peasant.attackPower;
+    int result = _peasant.attackPoints;
     int expected = 0;
     XCTAssertEqual((int)expected, (int)result, @"Peasant AP should be 0");
 

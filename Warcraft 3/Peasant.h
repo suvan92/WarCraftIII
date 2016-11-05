@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Lighthouse Labs. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Unit.h"
 
-@interface Peasant : NSObject
+@interface Peasant : Unit
 
 @end
